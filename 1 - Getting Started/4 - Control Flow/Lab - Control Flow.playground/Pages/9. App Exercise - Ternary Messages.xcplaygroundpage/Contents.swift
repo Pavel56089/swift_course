@@ -8,11 +8,9 @@
 let stepGoal = 10000
 let steps = 3948
 
-if steps < stepGoal / 2 {
-    print("Almost halfway!")
-} else {
-    print("Over halfway!")
-}
+let message = (steps < stepGoal / 2) ? "Almost halfway!" : "Over halfway!"
+print(message)
+
 /*:
  _Copyright © 2021 Apple Inc._
 
