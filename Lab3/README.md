@@ -1,0 +1,1 @@
+Please, rotate the phone horisontally.
