@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  test
 //
-//  Created by Murat Shaikhutdinov on 20.10.2023.
+//  Created by Pavel Bakharuev on 10.10.2023.
 //
 
 import UIKit
@@ -15,7 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
-        let viewController = ContactListViewController()
+        let viewController = ContactsViewController()
         let navigation = UINavigationController(rootViewController: viewController)
         window.rootViewController = navigation
         self.window = window

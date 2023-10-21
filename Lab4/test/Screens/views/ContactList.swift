@@ -2,12 +2,12 @@
 //  ContactData.swift
 //  test
 //
-//  Created by Murat Shaikhutdinov on 20.10.2023.
+//  Created by Pavel Bakharuev on 10.10.2023.
 //
 
 import UIKit
 
-class ContactList: UICollectionViewCell {
+class ContactCell: UICollectionViewCell {
     private var contactName: UILabel = {
         var label = UILabel()
         label.textColor = .black
@@ -26,8 +26,8 @@ class ContactList: UICollectionViewCell {
     }
     private func setUpView() {
         layer.cornerRadius = 20
-        layer.borderColor = UIColor(red: 0.5, green: 0.48, blue: 1, alpha: 1).cgColor
-        layer.borderWidth = 2
+        layer.borderColor = UIColor(red: 0.0, green: 0.48, blue: 1, alpha: 1).cgColor
+        layer.borderWidth = 1
         layer.masksToBounds = true
         contentView.addSubview(contactAvatar)
         contentView.addSubview(contactName)

@@ -14,17 +14,40 @@ class ContactsViewController: UIViewController {
     private func setupCollectionView() {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
-        layout.itemSize = CGSize(width: UIScreen.main.bounds.width * 0.9, height: 100)
-        collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: layout)
+        layout.itemSize = CGSize(width: UIScreen.main.bounds.width * 0.9, height: 80)
+
+        // Calculate the origin of the collection view to start below the header label
+        let collectionViewFrame = CGRect(x: 0, y: 60, width: view.bounds.width, height: view.bounds.height - 60) // Adjust 'y' and height as needed
+
+        collectionView = UICollectionView(frame: collectionViewFrame, collectionViewLayout: layout)
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.register(ContactCell.self, forCellWithReuseIdentifier: "CustomCell")
         view.addSubview(collectionView)
     }
 
+    
+//    private func setupHeader() {
+//            let headerLabel = UILabel()
+//            headerLabel.text = "Contacts"
+//            headerLabel.font = UIFont.boldSystemFont(ofSize: 24)
+//            headerLabel.textAlignment = .center
+//            headerLabel.translatesAutoresizingMaskIntoConstraints = false
+//
+//            view.addSubview(headerLabel)
+//
+//            // Position the header label using Auto Layout
+//            NSLayoutConstraint.activate([
+//                headerLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
+//                headerLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+//                headerLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+//            ])
+//        }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setupCollectionView()
+//        setupHeader()
     }
 }
 
