@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "867D1E73-40DA-4FA5-8172-50A3002DD11C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4E5A0B7-CF56-4A47-86D4-C7CC7BE92618"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Book of the day/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "ContentView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "D4E5A0B7-CF56-4A47-86D4-C7CC7BE92618 - df930e262fd4a128"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Book_of_the_day.ContentView.fetch() async throws -&gt; Book_of_the_day.BookResponse"
+                  moduleName = "Book of the day"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pbakharuev/Desktop/%D1%83%D1%87%D0%B5%D0%B1%D0%B0/swift/Book%20of%20the%20day/Book%20of%20the%20day/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "D4E5A0B7-CF56-4A47-86D4-C7CC7BE92618 - fda2be4fde64e982"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Book_of_the_day.ContentView.fetch() async throws -&gt; Book_of_the_day.BookResponse"
+                  moduleName = "Book of the day"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pbakharuev/Desktop/%D1%83%D1%87%D0%B5%D0%B1%D0%B0/swift/Book%20of%20the%20day/Book%20of%20the%20day/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
