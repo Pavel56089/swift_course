@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  test
 //
-//  Created by Murat Shaikhutdinov on 20.10.2023.
+//  Created by Paveel Bakharuev on 20.10.2023.
 //
 
 import UIKit
