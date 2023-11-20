@@ -11,7 +11,7 @@ import SwiftUI
 struct Book_of_the_dayApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }

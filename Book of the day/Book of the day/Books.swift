@@ -10,11 +10,56 @@ struct Book {
     let title: String
     let description: String
     let author: String
-    let image: String
+    let image: Stringмшыы
     let amazonURL: String
     let eUrl : String
     let isLiked: Bool
 }
+
+struct BookResponse: Codable {
+    let status: String
+    let copyright: String
+    let numResults: Int
+    let lastModified: String
+    let results: BookResult
+}
+
+struct BookResult: Codable {
+    let listName: String
+    let listNameEncoded: String
+    let bestsellersDate: String
+    let publishedDate: String
+    let publishedDateDescription: String
+    let nextPublishedDate: String?
+    let previousPublishedDate: String
+    let displayName: String
+    let normalListEndsAt: Int
+    let updated: String
+    let books: [BookDetails]
+}
+
+struct BookDetails: Codable {
+    let description: String
+    let price: String
+    let title: String
+    let author: String
+    let bookImage: String
+    let amazonProductURL: String
+    let isbns: [ISBN]
+    let buyLinks: [BuyLink]
+    let bookURI: String
+}
+
+struct ISBN: Codable {
+    let isbn10: String
+    let isbn13: String
+}
+
+struct BuyLink: Codable {
+    let name: String
+    let url: String
+}
+
 
 // Mock-up data
 var bookList: [Book] = [

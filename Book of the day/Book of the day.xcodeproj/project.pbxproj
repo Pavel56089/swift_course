@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180191DD2B0BAB2700B7C091 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180191DC2B0BAB2700B7C091 /* ViewModel.swift */; };
+		180191DF2B0BADE800B7C091 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180191DE2B0BADE800B7C091 /* SplashScreenView.swift */; };
 		1888C36B2B0A298C006F1BD1 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888C36A2B0A298C006F1BD1 /* Books.swift */; };
 		18CBE2E62B089AB1003194C9 /* Book_of_the_dayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CBE2E52B089AB1003194C9 /* Book_of_the_dayApp.swift */; };
 		18CBE2E82B089AB1003194C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CBE2E72B089AB1003194C9 /* ContentView.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180191DC2B0BAB2700B7C091 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		180191DE2B0BADE800B7C091 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		1888C36A2B0A298C006F1BD1 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 		18CBE2E22B089AB1003194C9 /* Book of the day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book of the day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CBE2E52B089AB1003194C9 /* Book_of_the_dayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_of_the_dayApp.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 				18CBE2E92B089AB2003194C9 /* Assets.xcassets */,
 				18CBE2EB2B089AB2003194C9 /* Preview Content */,
 				1888C36A2B0A298C006F1BD1 /* Books.swift */,
+				180191DC2B0BAB2700B7C091 /* ViewModel.swift */,
+				180191DE2B0BADE800B7C091 /* SplashScreenView.swift */,
 			);
 			path = "Book of the day";
 			sourceTree = "<group>";
@@ -114,6 +120,9 @@
 				Base,
 			);
 			mainGroup = 18CBE2D92B089AB1003194C9;
+			packageReferences = (
+				180191DB2B0BAA4E00B7C091 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+			);
 			productRefGroup = 18CBE2E32B089AB1003194C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -142,6 +151,8 @@
 			files = (
 				1888C36B2B0A298C006F1BD1 /* Books.swift in Sources */,
 				18CBE2E82B089AB1003194C9 /* ContentView.swift in Sources */,
+				180191DF2B0BADE800B7C091 /* SplashScreenView.swift in Sources */,
+				180191DD2B0BAB2700B7C091 /* ViewModel.swift in Sources */,
 				18CBE2E62B089AB1003194C9 /* Book_of_the_dayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +354,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		180191DB2B0BAA4E00B7C091 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.54.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 18CBE2DA2B089AB1003194C9 /* Project object */;
 }
